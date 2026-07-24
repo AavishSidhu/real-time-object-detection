@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+real_time_object_detection.egg-info/PKG-INFO
+real_time_object_detection.egg-info/SOURCES.txt
+real_time_object_detection.egg-info/dependency_links.txt
+real_time_object_detection.egg-info/top_level.txt
+src/__init__.py
