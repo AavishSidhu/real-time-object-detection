@@ -5,7 +5,6 @@ def detect_image(
     model: YOLO,
     image_path: str,
     confidence: float = 0.25,
-    save: bool = True,
 ):
     """
     Detect objects in an image.
@@ -14,7 +13,9 @@ def detect_image(
     results = model.predict(
         source=image_path,
         conf=confidence,
-        save=save,
+        verbose=False,
     )
 
-    return results
+    annotated_image = results[0].plot()
+
+    return annotated_image, results
