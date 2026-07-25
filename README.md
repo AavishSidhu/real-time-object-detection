@@ -89,20 +89,18 @@ python -m streamlit run app/Home.py
 
 ### Home
 
-(Add screenshot)
+![alt text](home-1.png)
 
 ### Image Detection
 
-(Add screenshot)
+![alt text](image_detection.png)
 
 ### Video Detection
 
-(Add screenshot)
-
+![alt text](video_detection.png)
 ### Webcam Detection
 
-(Add screenshot)
-
+![alt text](webcam.png)
 ---
 
 ## 🔮 Future Improvements

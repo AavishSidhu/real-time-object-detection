@@ -1,27 +1,55 @@
+# =========================
 # Virtual Environment
+# =========================
 .venv/
+venv/
 
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.pyc
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
+# =========================
 # VS Code
+# =========================
 .vscode/
 
-# Environment
+# =========================
+# Environment Variables
+# =========================
 .env
 
+# =========================
 # Models
+# =========================
 *.pt
 *.onnx
+*.engine
 
-# Outputs
+# =========================
+# Generated Files
+# =========================
+runs/
 data/outputs/
+temp/
+*.log
 
-# OS Files
+# =========================
+# Operating System
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Streamlit Cache
+# =========================
+.streamlit/secrets.toml
